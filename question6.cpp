@@ -6,12 +6,12 @@ int main() {
     int sum = 0;
 
     for (int i = 0; i < 5; i++) {
-        cout << "Enter value " << i + 1 << ": ";
+        cout << "Value " << i + 1 << ": ";
         cin >> arr[i];
         sum += arr[i];
     }
 
-    double average = sum / 5.0;
+    double average = sum / 5;
 
     cout << "Average = " << average << endl;
 

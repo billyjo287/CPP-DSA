@@ -3,9 +3,9 @@ using namespace std;
 
 void checkCase(char c) {
     if (c >= 'A' && c <= 'Z') {
-        cout << "Uppercase letter" << endl;
+        cout << "It is an uppercase letter" << endl;
     } else if (c >= 'a' && c <= 'z') {
-        cout << "Lowercase letter" << endl;
+        cout << "It is a lowercase letter" << endl;
     } else {
         cout << "Not a letter" << endl;
     }

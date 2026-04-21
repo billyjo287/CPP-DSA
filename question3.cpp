@@ -15,8 +15,8 @@ int main() {
     cout << "Enter side length: ";
     cin >> side;
 
-    cout << "Area: " << area(side) << endl;
-    cout << "Perimeter: " << perimeter(side) << endl;
+    cout << "The area is equal to: " << area(side) << endl;
+    cout << "The perimeter is equal to: " << perimeter(side) << endl;
 
     return 0;
 }

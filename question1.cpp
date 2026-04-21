@@ -9,7 +9,7 @@ int main() {
 
     long long seconds = days * 24LL * 60 * 60;
 
-    cout << "Seconds in " << days << " days is: " << seconds << endl;
+    cout << "The number of seconds in " << days << " days is: " << seconds << " seconds" << endl;
 
     return 0;
 }

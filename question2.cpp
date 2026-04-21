@@ -10,7 +10,7 @@ int main() {
 
     double volume = (4.0 / 3.0) * M_PI * pow(r, 3);
 
-    cout << "Volume of sphere: " << volume << endl;
+    cout << "The volume of the sphere is equal to: " << volume << endl;
 
     return 0;
 }
